@@ -53,4 +53,7 @@ function stringDakota(elements) {
 console.log(stringDakota(states));
 
 // Section 6.2 Excercise 1 part 2
-function 
+function regexDakota(elements) {
+	return elements.filter(element => element.split(/\s+/).length === 2);
+}
+console.log(regexDakota(states));
